@@ -58,7 +58,7 @@ function App() {
 
           <footer>
             <p>&#169; 2023 Olivia Russell</p>
-            <img src="./images/please.png"/>
+            <img class="footer-img" src={require('./images/please.png')} />
           </footer>
 
       </BrowserRouter>

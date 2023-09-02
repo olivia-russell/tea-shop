@@ -96,9 +96,17 @@ h1 {
 
 footer {
   background-color: #ededed;
-  min-height: 100px;
+  min-height: 150px;
   text-align: center;
   padding-top: 20px;
   font-weight: bolder;
   font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-img {
+  height: 30px;
+  padding-left: 20px;
 }
