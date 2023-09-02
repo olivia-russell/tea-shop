@@ -32,11 +32,12 @@ function App() {
       <BrowserRouter>
 
           <header>
-            <h1>Tea Collection</h1>
-            <p>Describe this collection.</p>
+            <p class="company-name">Tea Shop</p>
+            <Navigation />
+            <button class="header-button">LOG IN</button>
           </header>
 
-          <Navigation />
+
 
           <main>
             <section>
@@ -57,6 +58,7 @@ function App() {
 
           <footer>
             <p>&#169; 2023 Olivia Russell</p>
+            <img src="./images/please.png"/>
           </footer>
 
       </BrowserRouter>

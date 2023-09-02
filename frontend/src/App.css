@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Raleway:wght@100;400;700&family=Roboto+Condensed:wght@300;400;700&family=Space+Mono&family=Tilt+Prism&display=swap');
+
+body {
+  margin: 0 auto;
+  font-family: "Dosis", serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav a {
+  padding: 0px 10px 0px 10px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.company-name {
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.header-button {
+  margin-right: 40px;
+  background-color: #FFFFFF;
+  font-family: "Dosis", serif;
+  font-weight: bold;
+  border: 2px solid #000000;
+  padding: 10px 20px 10px 20px;
+
+}
+
+.hero {
+  background-image: url("images/hero-image.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+}
+
+.cta-column {
+  min-height: 300px;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 50px;
+  font-size: 2em;
+}
+
+.cta {
+  background-color: #FFFFFF;
+  font-family: "Dosis", serif;
+  font-weight: bold;
+  border: 2px solid #000000;
+  padding: 10px 20px 10px 20px;
+  margin-top: 10px;
+}
+
+.content-stripe-one {
+  min-height: 450px;
+  background-image: url("images/loose-leaf.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.banner-box {
+  max-width: 70%;
+  background-color: #FFFFFF;
+  min-height: 200px;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text-box {
+  max-width: 80%;
+}
+
+footer {
+  background-color: #ededed;
+  min-height: 100px;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bolder;
+  font-size: 1.2em;
+}
