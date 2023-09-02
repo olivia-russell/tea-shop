@@ -23,7 +23,7 @@ function HomePage() {
             </div>
         </div>
         <article>
-            <p>Hello!</p>
+            <p>Hello! Test</p>
         </article>
         <p>This website was build using the following languages/technologies:</p>
         <ul>
