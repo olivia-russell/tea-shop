@@ -10,7 +10,7 @@ function Navigation() {
         <Link to="/">Home</Link>
         <Link to="TeasPage">Tea Inventory</Link>
         <Link to="/create">Add Tea</Link>
-        <Link to="TopicsPage">Topics</Link>
+        <Link to="TopicsPage">Contact Us</Link>
     </nav>
   );
 }
